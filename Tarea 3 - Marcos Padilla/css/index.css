@@ -1,0 +1,112 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    font-size: 18px;
+}
+
+body h1, h2, h3, h4, h5, h6 {
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1000;
+    
+    width: 100vw;
+    align-items: center;  
+    padding: 3px 0;
+
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(148,148,148,1) 100%);
+    box-shadow: 0px 0px 30px rgba(153, 167, 128, 0.37);
+}
+
+nav div {
+    margin: 2px 0; 
+}
+
+nav ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    gap: 15px; 
+}
+
+nav li {
+    padding: 5px 40px;
+}
+
+nav a {
+    text-decoration: none; 
+    color: white; 
+    font-size: 18px; 
+    transition: color 0.3s ease; 
+}
+
+nav a:hover {
+    color: rgb(54, 73, 182); 
+}
+
+.principal {
+    height: 81vh;
+}
+
+.principal1 {
+    margin-top: 5rem;
+    color: #fff;
+}
+
+.principal p {
+    color: #fff;
+    font-size: 18px;
+}
+
+.selector {
+    width: 80vw;
+    background-color: #fff;
+    height: 70vh;
+    border-radius: 12px;
+    align-content: center;
+}
+
+.banner {
+    background-image: url("../img/banner.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    height: 5rem;
+    color: white;
+    font-size: 18px; 
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px; 
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: rgb(54, 73, 182); 
+}
+
+footer section {
+    height: 5rem;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(148,148,148,1) 100%);
+    box-shadow: 0px 0px 30px rgba(153, 167, 128, 0.37);
+}
