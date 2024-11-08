@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Quiz - Tour</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link href="favicon.png" rel="icon" />
+    <link href="tour.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <marquee direction="right">
+        <h1>Bienvenidos al Tour 360</h1>
+      </marquee>
+    </header>
+
+    <!-- Div en donde con el ID via JavaScript, va a aparecer la imagen 360.-->
+    <div id="panorama-container"></div>
+
+    <footer>
+      <h4
+        class="wow animate__animated animate__pulse animate__slower 3s animate__infinite"
+      >
+        Cenfotec 2024
+      </h4>
+      <p>Tour desarrollado por Marcos Padilla</p>
+    </footer>
+
+    <!-- Links para que pueda ser visible el Tour -->
+    <script src="https://pchen66.github.io/js/three/three.min.js"></script>
+    <script src="https://rawgit.com/pchen66/panolens.js/dev/build/panolens.min.js"></script>
+
+    <!-- Link de JS creado para la manipulacion del Tour -->
+    <script src="js/tour.js"></script>
+  </body>
+</html>
