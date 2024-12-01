@@ -47,7 +47,7 @@ function login() {
         timer: 4000,
         html: '<iframe src="https://lottie.host/embed/25da9216-938c-4d01-9a16-fc92f4400082/KjIZ7qLU6C.json"></iframe> <br><br><p>Un momento!</p>',
       }).then(() => {
-        (window.location.href = "/landing.html"), "blank";
+        (window.location.href = "../landing.html"), "blank";
       });
     } else {
       text = "Usuario o contraseña incorrecta.";
