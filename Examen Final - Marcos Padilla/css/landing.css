@@ -1,0 +1,76 @@
+/* ================== LANDING ================== */
+
+:root {
+  --color-primary: #000; /* Negro */
+  --color-secondary: #273581; /* Azul sobrio */
+  --color-accent: #eb610a; /* Naranja elegante */
+  --color-bg-light: #f5f5f5; /* Fondo claro */
+  --color-bg-dark: #111; /* Fondo oscuro */
+  --color-text: #333; /* Texto general */
+  --color-text-light: #fff; /* Texto claro */
+  --font-primary: "Roboto", sans-serif; /* Fuente principal */
+}
+
+/* General */
+body.bg-light {
+  background-color: var(--color-bg-dark);
+  color: var(--color-text-light);
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+
+.landing-page {
+  background-image: url(/img/back.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Barra de navegación */
+.navbar-custom {
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand .logo-img {
+  height: 40px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: var(--color-primary);
+  font-weight: 500;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: var(--color-secondary);
+}
+
+
+.botones {
+  padding-top: 5rem;
+  height: 62.5vh;
+  padding-bottom: 5rem;
+}
+
+.button-custom {
+  background-color: var(--color-primary);
+  border: none;
+  font-size: 1.25rem;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.button-custom:hover {
+  background-color: var(--color-accent);
+}
+
+.button-custom a {
+  color: #fff;
+  padding: 10px 226px;
+  text-decoration: none;
+}
+
+.button-custom a:hover {
+  color: #fff;
+}
