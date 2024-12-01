@@ -22,7 +22,7 @@ body.bg-light {
 /* Página general */
 .index-page {
   /* Fondo de toda la página */
-  background-image: url(/img/back.svg);
+  background-image: url(../img/back.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
