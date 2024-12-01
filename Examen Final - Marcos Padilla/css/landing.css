@@ -22,7 +22,7 @@ body.bg-light {
 
 
 .landing-page {
-  background-image: url(/img/back.svg);
+  background-image: url(../img/back.svg);
   background-size: cover;
   background-repeat: no-repeat;
 }
